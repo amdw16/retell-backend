@@ -16,7 +16,7 @@ module.exports = async function handler(req, res) {
 
   try {
     const retellResponse = await axios.post(
-      'https://api.retellai.com/v1/create-web-call',
+      'https://api.retellai.com/v2/create-web-call',
       { agent_id: RETELL_AGENT_ID },
       {
         headers: {
